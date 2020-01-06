@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import java.awt.Desktop;
+import java.net.URI;
+
+
+public class MostWordsFinder {
+
+	public static void main (String args []) throws Exception
+{
+		
+		Desktop d=Desktop.getDesktop();
+		d.browse(new URI("https://www.nytimes.com/")); //I am trying to count most used words from nytimes. any suggestion is welcomed 
